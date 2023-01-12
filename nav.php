@@ -8,10 +8,13 @@
         <a class="nav-link active" href="province.php">Province</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link active" href="customer.php">customer</a>
+        <a class="nav-link active" href="">#</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="minor_depart.php">minor_depart</a>
+        <a class="nav-link active" href="">#</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disable" href="#">disable</a>
       </li>
     </ul>
   </div>

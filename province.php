@@ -9,6 +9,7 @@ include "connect.php";
         <h2><center>Province</center></h2>
         <table class = "table table-bordered">
             <tr>
+                <th>PROVINCE_ID</th>
                 <th>PROVINCE_CODE</th>
                 <th>PROVINCE_NAME</th>
                 <th>zone_id</th>
@@ -23,10 +24,10 @@ include "connect.php";
         
         ?>
             <tr>
-                <td><?php echo $row['student_id'] ?></td>
-                <td><?php echo $row['name'] ?></td>
-                <td><?php echo $row['group_id'] ?></td>
-                <td><?php echo $row['level_group'] ?></td>
+                <td><?php echo $row['PROVINCE_ID'] ?></td>
+                <td><?php echo $row['PROVINCE_CODE'] ?></td>
+                <td><?php echo $row['PROVINCE_NAME'] ?></td>
+                <td><?php echo $row['zone_id'] ?></td>
             </tr>
         <?php
 
